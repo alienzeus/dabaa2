@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DABAA - Digital Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
+  <!-- Navbar -->
+  <nav class="p-6 bg-white dark:bg-gray-800 shadow-md fixed w-full z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-gray-900 dark:text-white">DABAA</a>
+      <div class="flex space-x-6">
+        <a href="index.html" class="hover:text-blue-500">Home</a>
+        <a href="about.html" class="hover:text-blue-500">About</a>
+        <a href="services.html" class="hover:text-blue-500">Services</a>
+        <a href="contact.html" class="hover:text-blue-500">Contact</a>
+        <button id="theme-toggle" class="focus:outline-none">
+          <i class="fas fa-moon dark:hidden"></i>
+          <i class="fas fa-sun hidden dark:block"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-screen flex items-center" style="background-image: url('assets/hero-bg.jpg');">
+    <div class="container mx-auto text-center">
+      <h1 class="text-6xl font-bold mb-4 animate-fade-in">Your Ideas, Our Expertise!</h1>
+      <p class="text-xl mb-8 animate-fade-in delay-100">Providing digital solutions with precision and creativity.</p>
+      <a href="services.html" class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 animate-fade-in delay-200">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 DABAA. All rights reserved.</p>
+      <div class="mt-4 space-x-4">
+        <a href="https://www.facebook.com/dabaa333" class="hover:text-blue-500"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/company/dabaa" class="hover:text-blue-500"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
