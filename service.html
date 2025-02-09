@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - DABAA</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
+  <!-- Navbar -->
+  <nav class="p-6 bg-white dark:bg-gray-800 shadow-md fixed w-full z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-gray-900 dark:text-white">DABAA</a>
+      <div class="flex space-x-6">
+        <a href="index.html" class="hover:text-blue-500">Home</a>
+        <a href="about.html" class="hover:text-blue-500">About</a>
+        <a href="services.html" class="hover:text-blue-500">Services</a>
+        <a href="contact.html" class="hover:text-blue-500">Contact</a>
+        <button id="theme-toggle" class="focus:outline-none">
+          <i class="fas fa-moon dark:hidden"></i>
+          <i class="fas fa-sun hidden dark:block"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Services Section -->
+  <section class="container mx-auto py-16 px-4 mt-20">
+    <h2 class="text-4xl font-bold text-center mb-8 animate-fade-in">Our Services</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg animate-slide-in-left">
+        <img src="assets/service1.jpg" alt="Front-end Development" class="rounded-lg mb-4">
+        <h3 class="text-2xl font-bold mb-2">Front-end Development</h3>
+        <p class="text-lg">We create responsive and user-friendly interfaces for your web applications.</p>
+      </div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg animate-slide-in-up">
+        <img src="assets/service2.jpg" alt="SEO & Sales" class="rounded-lg mb-4">
+        <h3 class="text-2xl font-bold mb-2">SEO & Sales</h3>
+        <p class="text-lg">Boost your online presence and sales with our SEO strategies.</p>
+      </div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg animate-slide-in-right">
+        <img src="assets/service3.jpg" alt="Content Services" class="rounded-lg mb-4">
+        <h3 class="text-2xl font-bold mb-2">Content Services</h3>
+        <p class="text-lg">We provide high-quality content tailored to your brand's needs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 DABAA. All rights reserved.</p>
+      <div class="mt-4 space-x-4">
+        <a href="https://www.facebook.com/dabaa333" class="hover:text-blue-500"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/company/dabaa" class="hover:text-blue-500"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
